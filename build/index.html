@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+    <title>Single product page</title>
+</head>
+<body>
+    <!--container-->
+    <div class="px-5 py-8 flex flex-col gap-6 lg:p-20 xl:px-28 xl:py-16">
+        <!--breadcrump-->
+        <div class="flex flex-row items-center">
+            <span class="font-sans font-semibold text-productgreen text-xs uppercase">Home</span>
+            <iconify-icon icon="material-symbols:chevron-right"></iconify-icon>
+            <span class="font-sans font-semibold text-productgreen text-xs uppercase">Furniture</span>
+            <iconify-icon icon="material-symbols:chevron-right"></iconify-icon>
+            <span class="font-sans font-semibold text-black text-xs uppercase">ALIQUAM ODODIAM</span>
+        </div>
+        <!--Product container-->
+        <div class="flex flex-col gap-7 lg:flex-row"> 
+            <!--Product img-->
+            <div class="relative xl:w-1/2">
+                <img src="images/product.webp" alt="">
+                <span class=" font-sans bg-productgreen text-white w-fit px-2 py-1 uppercase text-xs font-bold absolute top-4 left-4">sale!</span>
+            </div>
+            <!--Product details-->
+            <div class="flex flex-col gap-7 xl:w-1/2 xl:pr-14">
+                <h2 class="font-sans font-bold text-zinc-900 text-3xl">Aliquam Ododiam</h2>
+                <div class="relative">
+                    <h3 class="text-zinc-800 font-bold text-xl">$69.00</h3>
+                    <span class="text-zinc-500 line-through font-bold text-sm absolute top-1 left-[70px]">$79.00</span>
+                </div>
+                <div class="space-y-6">
+                    <p class="font-sans font-base text-zinc-900 font-normal">Dui faucibus in ornare quam viverra. Elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl. Sit amet nisl purus in mollis nunc sed id. Aliquam id diam maecenas ultricies. Dui id ornare arcu odio ut sem nulla pharetra.</p>
+                    <p class="font-sans font-base text-zinc-900 font-normal">Condimentum id venenatis a condimentum vitae sapien pellentesque habitant. Vestibulum mattis ullamcorper velit sed. Placerat duis ultricies lacus sed turpis tincidunt id aliquet. Nunc non blandit massa enim. Auctor elit sed vulputate mi sit amet. Non arcu risus quis varius quam quisque id diam.</p>
+                </div>
+                <div class="border-b border-zinc-400"></div>
+                <button class="text-white bg-productgreen w-fit md:w-1/2 px-10 py-4 font-sans font-bold">Add to cart</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
